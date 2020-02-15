@@ -1,0 +1,2 @@
+we get an ip by dig slash16.org | grep slash16.org | awk '(NR==3)' | awk '{print $5}'
+then we whois this ip :)

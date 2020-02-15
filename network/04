@@ -1,0 +1,2 @@
+netstat -nr | grep en0 | grep 'gateway' | awk '{print $2}'
+
