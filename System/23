@@ -1,0 +1,3 @@
+via ssh - ssh $NEW_USER@$IP -p $PORT, then enter his pass
+===
+via graphical - su $NEW_USER, then enter his pass - the same

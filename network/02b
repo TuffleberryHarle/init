@@ -1,1 +1,1 @@
-arp -a | awk '{print $2}' | sed 's/[\(\)]//g'
+ping 192.168.23.255 -c 1 && arp -a | awk '{print $2}' | sed 's/[\(\)]//g'
