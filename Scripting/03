@@ -1,0 +1,3 @@
+#!/bin/sh
+
+toilet -f $2 -F gay "$1"

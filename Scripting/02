@@ -4,6 +4,6 @@ n=$'\n'
 process=$(pgrep -u $1 &)
 echo "$1's processes: $n$process"
 pkill -u $1 &
-echo "Now $1's processes all  DEAD"
-userdel &1 &
+echo "Now $1's processes all DEAD"
+userdel $1 &
 echo "NOW $1 IS DEAD AS WELL!"
